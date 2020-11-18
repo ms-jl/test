@@ -1,0 +1,16 @@
+namespace NoCreds
+{
+    public class NoCreds
+    {
+        public static Cred GetCred()
+        {
+            return new Cred
+            {
+                ActiveDirectoryServiceEndpointResourceId = "https://login.microsoftonline.com/",
+                ClientId = "5555ee55-e55e-5555-e55e-ee555e5e5e55",
+                ClientSecret = "4oO4444oOo/oOOO4/O4oOo+oO4OOOO4OOoOoO4OoO44=",
+                TenantId = "77c7c777-7c77-7777-c7cc-77ccc77cccc7",
+            };
+        }
+    }
+}
